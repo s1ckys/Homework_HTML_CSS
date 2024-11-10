@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonus homework</title>
+</head>
+<body>
+    <h1>Bonus homework</h1>
+    <hr />
+    <h2>Forms</h2>
+    <br />
+    <form action="" method="get">
+        <fieldset>
+            <legend><b>Testform</b></legend>
+            <label for="name"><b>Name</b></label>
+            <input type="text" id="name" required />
+            <br />
+            <br />
+            <label for="password"><b>Password</b></label>
+            <input type="password" name="password" id="password" required />
+            <br />
+            <br />
+            <label><b>Gender</b></label>
+            <br />
+            <input type="radio" name="gender" id="male" required />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" required />
+            <label for="female">Female</label>
+            <br />
+            <br />
+            <label for="continet"><b>Continet</b></label>
+            <br />
+            <select name="continet" id="continet">
+                <option selected disabled>Please select...</option>
+                <option>Africa</option>
+                <option>Asia</option>
+                <option>Antartica</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>South America</option>
+            </select>
+            <br />
+            <br />
+            <label><b>Meals</b></label>
+            <br />
+            <input type="checkbox" id="breakfast">
+            <label for="breakfast">Breakfast</label>
+            <input type="checkbox" id="lunch">
+            <label for="lunch">Lunch</label>
+            <input type="checkbox" id="dinner">
+            <label for="dinner">Dinner</label>
+            <br />
+            <br />
+            <label for="remark"><b>Remark</b></label>
+            <br />
+            <textarea id="remark" minlength="10" maxlength="1000" placeholder="Enter your remark" cols="50" rows="10" required></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Cancel" />
+        </fieldset>
+    </form>
+</body>
+</html>
