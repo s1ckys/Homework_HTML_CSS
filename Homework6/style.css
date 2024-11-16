@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(184, 184, 184);
+}
+nav{
+    float: right;
+    padding: 10px;
+}
+.navLink{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+li>a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+#logo{
+    display: inline-block; 
+}
+#logo-img{
+    height: 60px;
+    position: relative;
+
+}
+section{
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(250, 25, 25, 0.548);
+    display: flex;
+}
+.container-text{
+    margin: 50px;
+}
+.content-picture{
+    height: 450px;
+}
+.content-text{
+    display: inline-block;
+    font-size: larger;
+}
+#second-section{
+    background-color: rgba(28, 166, 252, 0.518);
+}
+#third-section{
+    background-color: gold;
+}
+#fourth-section{
+    background-color: rgb(250, 121, 35);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.section-heading{
+    margin-bottom: 20px;
+}
+fieldset>input{
+    margin-left: 15px;
+}
+fieldset{
+    padding: 20px 100px 20px 100px;
+}
+fieldset>h3{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#finish{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: larger;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(184, 184, 184);
+}
